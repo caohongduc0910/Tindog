@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tindog</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="">
+          <img src="images/Flame Gradient RGB.png" width="32" class="d-inline-block align-text-top" alt="">
+          tindog
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+              data-toggle="modal" data-target="#login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+              data-toggle="modal" data-target="#signup">Sign up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#pricing">Go Pro</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#cta">Download</a>
+                <a class="dropdown-item" href="#cta">About us</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Policy</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section class="pink-section" id="title">
+    <div class="container-fluid">
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6 .col-md-12" >
+          <h1 class="big-heading">Meet new and interesting dogs nearby</h1>
+          <a class="btn btn-dark btn-lg download-button" href="detail.html">
+            Explore More! <i class="fa-solid fa-arrow-right"></i> 
+          </a>
+        </div>
+        <div class="col-lg-6 .col-md-12">
+          <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <h2 class="section-heading">Why Choose Us?</h2>
+      <p class="description">Simple and affordable price plans for you and your dog</p>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 feature-box">
+          <i class="fas fa-check-circle fa-4x icon"></i>
+          <h3 class="feature-title">Easy to use</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 feature-box">
+          <i class="fas fa-bullseye fa-4x icon"></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 feature-box">
+          <i class="fas fa-heart fa-4x icon"></i>
+          <h3 class="feature-title">Guaranteed to work</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="pink-section" id="testimonials">
+    <h2 class="section-heading">What people say?</h2>
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <ol class="carousel-indicators">
+        <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+        <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+        <li data-target="#testimonial-carousel" data-slide-to="3"></li>
+        
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h3 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog.</h3>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, he's found the love of his life.</h3>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3 class="testimonial-text">Woof! Woof! Woof!
+            <br> Woof! Woof!
+            <br> Woof!
+          </h3>
+          <img class="testimonial-image" src="images/dog.jpg" alt="dog-profile">
+          <em>Peter, Colorado</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3 class="testimonial-text">Dogs are bloody yummy. Get out of my way, they're all mine!!!</h3>
+          <img class="testimonial-image" src="images/cat.jpg" alt="cat-profile">
+          <em>Katzen, Queensland</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p class="description">Simple and affordable price plans for you and your dog</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 style="color: #ff385b;">Tindog Plus</h3>
+            <p class="description">Unlimited Likes & More!</p>
+          </div>
+
+          <div class="card-body">
+            <div>
+              <span class="other-text">$</span>
+              <span class="price-text">3.99</span>
+              <span class="other-text">/mo</span>
+            </div>
+            
+            <p class="header-description">Upgrade Your Likes</p>
+            <p>
+              <i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Unlimited Likes
+            </p>
+            <p><i class="fa-solid fa-xmark" style="color: #f50000;"></i>
+              See Who Likes You</p>
+            <p><i class="fa-solid fa-xmark" style="color: #f50000;"></i>
+              Priority Likes</p>
+            <p class="header-description">Enhance Your Experience</p>
+            <p>
+              <i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Unlimited Rewinds
+            </p>
+            <p><i class="fa-solid fa-xmark" style="color: #f50000;"></i>
+              1 Free Boost per month</p>
+            <p><i class="fa-solid fa-xmark" style="color: #f50000;"></i>
+              5 Free Super Likes per week</p>
+            <p><i class="fa-solid fa-xmark" style="color: #f50000;"></i>
+              Message Before Matching</p>
+            <p class="header-description">Take Control</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Control Your Profile</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Control Who Sees You</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Control Whom You See</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Hide Ads</p>
+            <button type="button" class="btn btn-outline-dark btn-block">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 style="color: #cccc35;">Tindog Gold</h3>
+            <p class="description">See Who Likes You & More!</p>
+          </div>
+
+          <div class="card-body">
+            <div>
+              <span class="other-text">$</span>
+              <span class="price-text">5.99</span>
+              <span class="other-text">/mo</span>
+            </div>
+            <p class="header-description">Upgrade Your Likes</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Unlimited Likes</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              See Who Likes You</p>
+            <p><i class="fa-solid fa-xmark" style="color: #f50000;"></i>
+              Priority Likes</p>
+            <p class="header-description">Enhance Your Experience</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Unlimited Rewinds</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              1 Free Boost per month</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              5 Free Super Likes per week</p>
+            <p><i class="fa-solid fa-xmark" style="color: #f50000;"></i>
+              Message Before Matching</p>
+            <p class="header-description">Take Control</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Control Your Profile</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Control Who Sees You</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Control Whom You See</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Hide Ads</p>
+            <button type="button" class="btn btn-outline-dark btn-block">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 style="color:#616064;">Tindog Platinum</h3>
+            <p class="description">Level Up Every Action You Take!</p>
+          </div>
+
+          <div class="card-body">
+            <div>
+              <span class="other-text">$</span>
+              <span class="price-text">9.99</span>
+              <span class="other-text">/mo</span>
+            </div>
+            <!-- <p>Pirority Listing</p> -->
+            <p class="header-description">Upgrade Your Likes</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Unlimited Likes</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              See Who Likes You</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Priority Likes</p>
+            <p class="header-description">Enhance Your Experience</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Unlimited Rewinds</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              1 Free Boost per month</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              5 Free Super Likes per week</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Message Before Matching</p>
+            <p class="header-description">Take Control</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Control Your Profile</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Control Who Sees You</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Control Whom You See</p>
+            <p><i class="fa-solid fa-check" style="color: #44c200;"></i>
+              Hide Ads</p>
+            <button type="button" class="btn btn-outline-dark btn-block">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+  <section class="pink-section" id="cta">
+    <div class="container">
+      <h2 class="section-heading">Find the True Love of Your Dog's Life Today</h2>
+      <div class="row align-items-center" style="margin-top: 32px;">
+        <div class="col-lg-6 .col-md-12 section1">
+          There really is something for everyone on Tindog. Want to get into a relationship? You got it. Trying to find some new friends? Say no more. New kid on campus and looking to make the most of your college experience? Tindog U’s got you covered. Tinder isn’t your average dating site — it’s the most diverse dating app, where adults of all backgrounds and experiences are invited to make connections, memories, and everything in between.
+        </div>
+        <div class="col-lg-6 .col-md-12">
+          <img src="images/location.png" class="location-img" alt="">
+        </div>
+      </div>
+      <div style="font-size: 30px;">Get the app!</div>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="white-section" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 m-auto text-center">
+          <h3>Join Our Secret Society</h3>
+          <div>
+            <input class="input2" type="text" placeholder="Enter Your Email">
+            <button class="btn2"> Submit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row info">
+        <div class="col-lg-3 col-md-6">
+          <p style="text-decoration: underline;"> <b>Legal</b></p>
+          <p>Privacy</p>
+          <p>Terms</p>
+          <p>Cookies Policy</p>
+          <p>Intellectual Property</p>
+        </div>
+    
+        <div class="col-lg-3 col-md-6">
+          <p style="text-decoration: underline;"> <b>Careers</b></p>
+          <p>Careers Portal</p>
+          <p>Tech Blog</p>
+          <p style="text-decoration: underline;"> <b>Reach us</b></p>
+          <i class="fa-brands fa-facebook-f social-icon" style="color: #2f2dae;"></i>
+          <i class="fa-brands fa-twitter social-icon" style="color: #3070df;"></i>
+          <i class="fa-brands fa-pinterest social-icon" style="color: #f41027;"></i>
+          <i class="fa-brands fa-tiktok social-icon"></i>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <p style="text-decoration: underline;"> <b>FAQ</b></p>
+          <p>Destinations</p>
+          <p>Press Room</p>
+          <p>Contact</p>
+          <p>Promo Code</p>
+        </div>
+  
+        <div class="col-lg-3 .col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.292513285919!2d105.78486297430473!3d20.980908489422234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135accdd8a1ad71%3A0xa2f9b16036648187!2sPosts%20and%20Telecommunications%20Institute%20of%20Technology!5e0!3m2!1sen!2s!4v1713027921824!5m2!1sen!2s" width=100% height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+  
+      </div>
+
+        <!-- Press -->
+      <section id="press">
+        <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+        <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+        <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+        <!-- <img class="press-logo" src="images/mashable.png" alt="mashable-logo"> -->
+      </section>
+      <p>© Copyright 2024 TinDog, All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- Modal login -->
+  <div class="modal fade" id="login" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>  
+        <div class="modal-body text-left">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">
+                <i class="fa-solid fa-user"></i>
+              Email address</label>
+              <input type="email" class="form-control" 
+              placeholder="ex: user@gmail.com" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">
+                <i class="fa-solid fa-lock"></i>
+                Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="ex: 123456" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer text-left">
+          <p style="flex: auto;">New to Tindog? 
+            <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#signup">Sign up</a>
+          </p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button id="liveToastBtn" type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal signup -->
+  <div class="modal fade" id="signup" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Sign Up</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>  
+        <div class="modal-body text-left">
+          <form>
+            <div class="form-group">
+              <label for="email"><i class="fa-solid fa-user"></i>
+                Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" 
+              placeholder="ex: user@gmail.com" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="password"><i class="fa-solid fa-lock"></i>
+                Password</label>
+              <input type="password" class="form-control" id="password" placeholder="ex: 123456" required>
+            </div>
+            <div class="form-group">
+              <label for="confirmpassword"><i class="fa-solid fa-lock"></i>
+                Confirm Password</label>
+              <input type="password" class="form-control" id="confirmpassword" placeholder="ex: 123456" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-primary">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+</html>

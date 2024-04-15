@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tindog</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/Flame Gradient RGB.png" width="32" class="d-inline-block align-text-top" alt="">
+          tindog
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+              data-toggle="modal" data-target="#login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+              data-toggle="modal" data-target="#signup">Sign up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#pricing">Go Pro</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#cta">Download</a>
+                <a class="dropdown-item" href="#cta">About us</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Policy</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section class="pink-section">
+    <div class="container-fluid">
+      <h2 class="section-heading">Hot Pick of The Year</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="images/avt3.jpg" class="card-img-top" alt="..." style="width: 100%; height: auto;">
+            <div class="card-body">
+              <h5 class="card-title">Haskay</h5>
+              <h6 class="card-subtitle mb-2 text-muted">The Charming King</h6>
+              <p class="card-text">No one can resist in front of my beauty</p>
+              <a href="#" type="button" class="btn btn-info" data-toggle="modal" data-target="#avt1">View Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="images/avt2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">George</h5>
+              <h6 class="card-subtitle mb-2 text-muted">The Coolest</h6>
+              <p class="card-text">The more I am ignorant, the more people pay attention to me</p>
+              <a href="#" type="button" class="btn btn-info" data-toggle="modal" data-target="#avt2">View Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="images/avt1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ricky</h5>
+              <h6 class="card-subtitle mb-2 text-muted">The Money Spender</h6>
+              <p class="card-text">Life is just about waking up and spending money. Easy!</p>
+              <a href="#" type="button" class="btn btn-info" data-toggle="modal" data-target="#avt3">View Detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="...">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#">Previous</a>
+          </li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">1</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <section class="white-section">
+    <div class="container-fluid">
+      <h2 class="section-heading">New Tindoger</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="images/avt3.jpg" class="card-img-top" alt="..." style="width: 100%; height: auto;">
+            <div class="card-body">
+              <h5 class="card-title">Haskay</h5>
+              <h6 class="card-subtitle mb-2 text-muted">The Charming King</h6>
+              <p class="card-text">No one can resist in front of my beauty</p>
+              <a href="#" type="button" class="btn btn-info" data-toggle="modal" data-target="#avt1">View Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="images/avt2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">George</h5>
+              <h6 class="card-subtitle mb-2 text-muted">The Coolest</h6>
+              <p class="card-text">The more I am ignorant, the more people pay attention to me</p>
+              <a href="#" type="button" class="btn btn-info" data-toggle="modal" data-target="#avt2">View Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card" style="width: 18rem;">
+            <img src="images/avt1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ricky</h5>
+              <h6 class="card-subtitle mb-2 text-muted">The Money Spender</h6>
+              <p class="card-text">Life is just about waking up and spending money. Easy!</p>
+              <a href="#" type="button" class="btn btn-info" data-toggle="modal" data-target="#avt3">View Detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="...">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#">Previous</a>
+          </li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">1</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <section class="pink-section">
+    <h2 class="section-heading">FAQs</h2>
+    <div class="container-fluid2">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <span style="color: black; font-size: x-large;">What is Tindog Used For?</span>
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Tindog is the most widely used content management system (CMS), powering over 40% of all websites. It enables millions of creators to build all kinds of websites – blogs, portfolios, resumes, forums, publications, and eCommerce sites.
+
+              As free and open-source software, you can install it on any web hosting service and modify Tindog websites to your liking
+              
+              Tindog is famous for its easy-to-use interface, themes, and plugins - you don't need technical knowledge to handle most aspects of your website, from content management to web design. In short, you can create a fully functional site with Tindog without any coding.
+              
+              Want to know more? Read our in-depth tutorial explaining what Tindog is and how it works.            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span style="color: black; font-size: x-large;">What is Managed Tindog Hosting?</span></button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Managed Tindog Hosting has many Tindog-specific features, like Tindog multisite, Object Cache, CDN, a staging tool, and Tindog AI tool.
+
+              A Managed Tindog Hosting company will take care of your hosting environment’s technical aspects. These include speed, server maintenance, security patches, a professional Tindog support team, automatic backups, and updates.
+              
+              This makes managed hosting perfect for beginners with a non-technical background or developers who need a quick setup. Tindog users can simply focus on building their website, creating high-quality content, and growing their traffic.            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span style="color: black; font-size: x-large;">How Much Do Tindog Plans Cost?</span>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Our Managed WordPress Hosting has three different plans:
+
+              <ul>
+                <li> Premium - $2.99/month</li>
+                <li> Business - $3.99/month</li>
+                <li> Cloud Startup - $9.99/month</li>
+              </ul>
+              Launching a professional online presence has never been easier with our free domain name registration, included in our Tindog plans. You can register a .com extension and create up to 100 domain-based email addresses – all at zero cost.
+              
+              The Tindog plans include a custom domain and additional perks for hosting your sites: Tindog multisite, 100 domain-based email addresses, Tindog themes, over 100 subdomains, and more.
+              
+              All Hostinger products include a 30-day money-back guarantee so that you can explore our services with no risk.            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span style="color: black; font-size: x-large;">How Do I Secure Tindog?</span></button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Our Managed WordPress Hosting has three different plans:
+
+              <ul>
+                <li> Premium - $2.99/month</li>
+                <li> Business - $3.99/month</li>
+                <li> Cloud Startup - $9.99/month</li>
+              </ul>
+              Launching a professional online presence has never been easier with our free domain name registration, included in our Tindog plans. You can register a .com extension and create up to 100 domain-based email addresses – all at zero cost.
+              
+              The Tindog plans include a custom domain and additional perks for hosting your sites: Tindog multisite, 100 domain-based email addresses, Tindog themes, over 100 subdomains, and more.
+              
+              All Hostinger products include a 30-day money-back guarantee so that you can explore our services with no risk.            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span style="color: black; font-size: x-large;">How to buy Tindog?</span>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Our Managed WordPress Hosting has three different plans:
+
+              <ul>
+                <li> Premium - $2.99/month</li>
+                <li> Business - $3.99/month</li>
+                <li> Cloud Startup - $9.99/month</li>
+              </ul>
+              Launching a professional online presence has never been easier with our free domain name registration, included in our Tindog plans. You can register a .com extension and create up to 100 domain-based email addresses – all at zero cost.
+              
+              The Tindog plans include a custom domain and additional perks for hosting your sites: Tindog multisite, 100 domain-based email addresses, Tindog themes, over 100 subdomains, and more.
+              
+              All Hostinger products include a 30-day money-back guarantee so that you can explore our services with no risk.            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer -->
+   <footer class="white-section" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 m-auto text-center">
+          <h3>Join Our Secret Society</h3>
+          <div>
+            <input class="input2" type="text" placeholder="Enter Your Email">
+            <button class="btn2"> Submit</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row info">
+        <div class="col-lg-3 col-md-6">
+          <p style="text-decoration: underline;"> <b>Legal</b></p>
+          <p>Privacy</p>
+          <p>Terms</p>
+          <p>Cookies Policy</p>
+          <p>Intellectual Property</p>
+        </div>
+    
+        <div class="col-lg-3 col-md-6">
+          <p style="text-decoration: underline;"> <b>Careers</b></p>
+          <p>Careers Portal</p>
+          <p>Tech Blog</p>
+          <p style="text-decoration: underline;"> <b>Reach us</b></p>
+          <i class="fa-brands fa-facebook-f social-icon" style="color: #2f2dae;"></i>
+          <i class="fa-brands fa-twitter social-icon" style="color: #3070df;"></i>
+          <i class="fa-brands fa-pinterest social-icon" style="color: #f41027;"></i>
+          <i class="fa-brands fa-tiktok social-icon"></i>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <p style="text-decoration: underline;"> <b>FAQ</b></p>
+          <p>Destinations</p>
+          <p>Press Room</p>
+          <p>Contact</p>
+          <p>Promo Code</p>
+        </div>
+  
+        <div class="col-lg-3 .col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.292513285919!2d105.78486297430473!3d20.980908489422234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135accdd8a1ad71%3A0xa2f9b16036648187!2sPosts%20and%20Telecommunications%20Institute%20of%20Technology!5e0!3m2!1sen!2s!4v1713027921824!5m2!1sen!2s" width=100% height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+  
+      </div>
+
+        <!-- Press -->
+      <section id="press">
+        <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+        <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+        <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+        <!-- <img class="press-logo" src="images/mashable.png" alt="mashable-logo"> -->
+      </section>
+      <p>© Copyright 2024 TinDog, All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Modal avt -->
+  <div class="modal fade" id="avt1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Haskay</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>  
+        <div class="modal-body text-left">
+          <div class="row">
+            <div class="col-6"> <img src="images/avt3.jpg" style="width: 100%;" alt=""></div>
+            <div class="col-6"> 
+              <div><b>Name: </b><span>Haskay</span></div>
+              <div><b>Date of Birth: </b><span>22/2/2022</span></div>
+              <div><b>Horoscrope: </b><span>Sagitarius</span></div>
+              <div><b>Hobbies: </b><span>Makeup, Sleeping, Netflix</span></div>
+              <div><b>Slogan: </b><span>Life is too short to learn German</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer text-left">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Got it!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="avt2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Haskay</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>  
+        <div class="modal-body text-left">
+          <div class="row">
+            <div class="col-6"> <img src="images/avt2.jpg" style="width: 100%;" alt=""></div>
+            <div class="col-6"> 
+              <div><b>Name: </b><span>Haskay</span></div>
+              <div><b>Date of Birth: </b><span>22/2/2022</span></div>
+              <div><b>Horoscrope: </b><span>Sagitarius</span></div>
+              <div><b>Hobbies: </b><span>Makeup, Sleeping, Netflix</span></div>
+              <div><b>Slogan: </b><span>Life is too short to learn German</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer text-left">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Got it!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="avt3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Haskay</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>  
+        <div class="modal-body text-left">
+          <div class="row">
+            <div class="col-6"> <img src="images/avt1.jpg" style="width: 100%;" alt=""></div>
+            <div class="col-6"> 
+              <div><b>Name: </b><span>Haskay</span></div>
+              <div><b>Date of Birth: </b><span>22/2/2022</span></div>
+              <div><b>Horoscrope: </b><span>Sagitarius</span></div>
+              <div><b>Hobbies: </b><span>Makeup, Sleeping, Netflix</span></div>
+              <div><b>Slogan: </b><span>Life is too short to learn German</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer text-left">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Got it!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal login -->
+  <div class="modal fade" id="login" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>  
+        <div class="modal-body text-left">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">
+                <i class="fa-solid fa-user"></i>
+              Email address</label>
+              <input type="email" class="form-control" 
+              placeholder="ex: user@gmail.com" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">
+                <i class="fa-solid fa-lock"></i>
+                Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="ex: 123456" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer text-left">
+          <p style="flex: auto;">New to Tindog? 
+            <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#signup">Sign up</a>
+          </p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button id="liveToastBtn" type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal signup -->
+  <div class="modal fade" id="signup" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Sign Up</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>  
+        <div class="modal-body text-left">
+          <form>
+            <div class="form-group">
+              <label for="email"><i class="fa-solid fa-user"></i>
+                Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" 
+              placeholder="ex: user@gmail.com" required>
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="password"><i class="fa-solid fa-lock"></i>
+                Password</label>
+              <input type="password" class="form-control" id="password" placeholder="ex: 123456" required>
+            </div>
+            <div class="form-group">
+              <label for="confirmpassword"><i class="fa-solid fa-lock"></i>
+                Confirm Password</label>
+              <input type="password" class="form-control" id="confirmpassword" placeholder="ex: 123456" required>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-primary">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+</html>
