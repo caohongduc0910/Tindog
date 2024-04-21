@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -42,11 +48,12 @@ p.description {
 /* button */
 .btn{
   transition: 0.3s ease-in-out;
+  margin: 0 10px 0 0;
 }
 
 .btn:hover {
-  box-shadow: 6px 6px 20px #777;
-  transform: scale(1.05);
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);;
+  transform: scale(1.02);
 }
 
 /* Headings */
@@ -101,19 +108,15 @@ background-color: #fff;
 }
 
 .nav-link{
-  font-size:1.2rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 /* Download Buttons */
-.btn{
-  margin:0 10px 0 0;
-}
 
 .download-button{
   margin: 3% 3% 4% 0;
 }
-
 
 /* Title Image */
 .title-img{
@@ -130,11 +133,11 @@ background-color: #fff;
 
 /* Features Section */
 #features{
-  position:relative;
+  position: relative;
 }
 
 .feature-title{
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 .feature-box{
@@ -200,6 +203,15 @@ p.header-description{
 
 .pricing-column{
   padding:3% 2%;
+}
+
+.card {
+  border-radius:0;
+  transition: box-shadow 0.5s;
+}
+
+.card:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 
 
